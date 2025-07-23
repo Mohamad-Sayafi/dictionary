@@ -1,3 +1,6 @@
+<?php
+require_once 'loader.php';
+?>
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 
@@ -65,6 +68,18 @@
     .output-box.empty {
       color: #adb5bd;
     }
+
+    #wordInput {
+      height: 60px;
+      font-size: 18px;
+      padding: 12px;
+    }
+
+    #result {
+      min-height: 200px;
+      padding: 15px;
+      font-size: 16px;
+    }
   </style>
 </head>
 
@@ -83,3 +98,5 @@
   </div>
 
 </body>
+
+</html>
